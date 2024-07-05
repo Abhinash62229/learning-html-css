@@ -1,0 +1,11 @@
+#top{
+    background-color: gray;
+    height: 450px;
+    display: flex;
+    padding: 20px, 0;
+}
+.top_box{
+    width: 22%;
+    background-color: white;
+    height: 450px;
+}

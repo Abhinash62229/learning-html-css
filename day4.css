@@ -1,0 +1,89 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    background-color:rgb(255, 255, 255);
+}
+.container{
+    width: 80%;
+    /*background colour is red*/
+}
+header{
+    /* background-color: silver; */
+    padding: 8px;
+    
+}
+header img{
+    height: 50px;
+}
+nav{
+    background-color: #040e4e;
+}
+nav a{
+    font-size: 30px;
+    padding: 20px 15px;
+    display: inline-block;
+    color: aliceblue;
+}
+.feature{
+    padding: 30px;
+}
+.boxes{
+    display: flex;
+    position: relative;
+}
+.box{
+    background-color: aqua;
+    position: relative;
+}
+.box img{
+    display:block;
+    width: 400px;
+    height: 300px;
+}
+.red{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 200;
+    left: 200;
+    padding: 10px 5px;
+    color: rgb(14, 75, 39);
+
+}
+.bottom.right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+}
+.newsletter{
+    background-color: green;
+    padding: 30px;
+}
+.newsletter h4{
+    background-color: green;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+}
+.in{
+    background-color: lightseagreen;
+    padding: 5px;
+    width: 300px;
+    bottom: 1px solid black;
+    height: 30px;
+    width: 100px;
+}
+.btn{
+    background-color: lightseagreen;
+    text-size-adjust: 500px;
+    padding: 5px;
+    width: 300px;
+    bottom: 1px solid black;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+}
+.newsletter{
+    text-align: center;
+}
